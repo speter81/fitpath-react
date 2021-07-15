@@ -3,7 +3,7 @@ version: 2.1
 executors:
   my-executor:
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:15
     working_directory: /tmp
 
 jobs:
